@@ -4,3 +4,6 @@ INSERT INTO couponlists (title, description, product, discount, exp_date) VALUES
 INSERT INTO couponlists (title, description, product, discount, exp_date) VALUES ('Tacos', 'buy one get three', 'steak tacos', .50, '2015-08-31');
 INSERT INTO couponlists (title, description, product, discount, exp_date) VALUES ('paper towls', 'buy two get three', 'towels', .25, '2015-08-31');
 INSERT INTO couponlists (title, description, product, discount, exp_date) VALUES ('Bikes', 'Buy one bike get two free', 'bicycles', 1.50, '2015-08-31');
+
+
+CREATE TABLE users (id SERIAL PRIMARY KEY, user_name varchar(255), user_email varchar(50), password_hash varchar(50), password_salt varchar(50));

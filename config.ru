@@ -7,3 +7,4 @@ end
 
 map('/') { run HomeController }
 map('/coupons') { run CouponsController }
+map('/') { run UsersController }
